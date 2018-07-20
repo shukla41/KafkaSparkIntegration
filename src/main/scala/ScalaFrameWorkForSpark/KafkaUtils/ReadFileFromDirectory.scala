@@ -1,4 +1,4 @@
-package ScalaFrameWorkForSpark.ReadFile
+package ScalaFrameWorkForSpark.KafkaUtils
 
 import java.io.File
 

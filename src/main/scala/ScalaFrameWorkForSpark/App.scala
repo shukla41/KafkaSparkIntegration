@@ -7,19 +7,19 @@ package ScalaFrameWorkForSpark
  */
 
 import java.util.Properties
-import ReadFile.ReadFileFromDirectory
+import KafkaUtils.ReadFileFromDirectory
 import org.apache.kafka.clients.producer._
 import scala.io.Source
 import scala.util.Random
 import java.io.File
-import ReadFile._
+import KafkaUtils._
 
 object App {
   def main(args: Array[String]): Unit = {
 
-    ReadFile.KafkaProducer.KafkaConfigurationSetUp
+    KafkaUtils.KafkaProducer.KafkaConfigurationSetUp
     while (true) {
-      ReadFile.KafkaProducer.KafkaProducerJob("test3", "/usr/local/src/file")
+      KafkaUtils.KafkaProducer.KafkaProducerJob("test3", "/usr/local/src/file")
       Thread.sleep(10000)
     }
   }
