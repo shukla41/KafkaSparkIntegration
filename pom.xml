@@ -37,54 +37,34 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.json4s</groupId>
-      <artifactId>json4s-native_2.10</artifactId>
-      <version>3.2.4</version>
-    </dependency>
 
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.10</artifactId>
-      <version>2.1.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-hive_2.10</artifactId>
-      <version>2.1.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.11</artifactId>
-      <version>2.1.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.typesafe.play</groupId>
-      <artifactId>play-json_2.11</artifactId>
-      <version>2.4.6</version>
-    </dependency>
-
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-core_2.11</artifactId>
+          <version>2.3.0</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-sql_2.11</artifactId>
+          <version>2.3.0</version>
+      </dependency>
       <dependency>
           <groupId>org.apache.spark</groupId>
           <artifactId>spark-streaming_2.11</artifactId>
-          <version>2.1.0</version>
+          <version>2.3.0</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+          <version>2.3.0</version>
       </dependency>
 
       <dependency>
           <groupId>org.apache.spark</groupId>
-          <artifactId>spark-streaming-kafka_2.11</artifactId>
-          <version>1.6.3</version>
+          <artifactId>spark-hive_2.10</artifactId>
+          <version>2.1.0</version>
       </dependency>
 
-
-    <dependency>
-      <groupId>net.liftweb</groupId>
-      <artifactId>lift-json_2.11</artifactId>
-      <version>3.0.2</version>
-    </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
@@ -92,23 +72,17 @@
       <version>${scala.version}</version>
     </dependency>
 
-    <dependency>
+
+      <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
       <version>1.0.2</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.specs</groupId>
-      <artifactId>specs</artifactId>
-      <version>1.2.5</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
+
     <plugins>
       <plugin>
         <groupId>org.scala-tools</groupId>
@@ -143,6 +117,17 @@
             <classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
             <classpathContainer>ch.epfl.lamp.sdt.launching.SCALA_CONTAINER</classpathContainer>
           </classpathContainers>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>ScalaFrameWorkForSpark.App</mainClass>
+            </manifest>
+          </archive>
         </configuration>
       </plugin>
     </plugins>

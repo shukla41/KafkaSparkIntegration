@@ -27,16 +27,13 @@ object KafkaProducer {
 
   def KafkaProducerJob (topic_name: String, Path: String) = {
     val topic = topic_name
-    println("Path", Path)
       val files = ReadFileFromDirectory.getListOfFiles(Path)
       for (name <- files) {
         lines = Source.fromFile(name.toString).getLines.mkString("\n")
-        println("value is " + lines)
         ReadFileFromDirectory.delete(name)
         val str = (1 to 1).map(x => lines).mkString
         val message = new ProducerRecord[String, String](topic, null, str)
         KafkaProducer.KafkaConfigurationSetUp.send(message)
-        lines = ""
 
 
     }
