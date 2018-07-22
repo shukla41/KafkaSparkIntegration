@@ -13,6 +13,7 @@ import org.apache.spark.streaming.kafka010._
 import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 import ScalaFrameWorkForSpark.SparkUtils._
 import org.apache.spark
+import ScalaFrameWorkForSpark.Common._
 
 import scala.collection.mutable
 
@@ -46,6 +47,7 @@ object KafkaSparkStreamingIntegration {
       LocationStrategies.PreferConsistent,
       ConsumerStrategies.Subscribe[String, String](topicList, kafkaParam))
 
+    FileDirectoryHandling.cmd("mkdir /usr/local/src/file2")
 
     val lines = messageStream.map(consumerRecord => consumerRecord.value().asInstanceOf[String])
     //lines.map(p=> p.foreach(println)
@@ -64,6 +66,7 @@ object KafkaSparkStreamingIntegration {
         .option("rowTag", "Employee").load("/usr/local/src/file2/f.xml-[0-5]*")
 
       df.show()
+      FileDirectoryHandling.cmd("rm -rf /usr/local/src/file2")
 
     }
 
