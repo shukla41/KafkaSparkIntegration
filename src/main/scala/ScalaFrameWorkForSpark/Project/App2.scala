@@ -14,9 +14,6 @@ import org.apache.spark.streaming.{Durations, StreamingContext}
   */
 object App2 {
 
-  def manOf[T: Manifest](t: T): Manifest[T] = manifest[T]
-
-
   def main(args: Array[String]): Unit = {
 
     val StrmingCntxt=SparkConfig.StreamingSession

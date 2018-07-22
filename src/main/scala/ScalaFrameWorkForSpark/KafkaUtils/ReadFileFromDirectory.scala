@@ -22,4 +22,5 @@ object ReadFileFromDirectory {
     file.delete
   }
 
+  def manOf[T: Manifest](t: T): Manifest[T] = manifest[T]
 }
