@@ -5,15 +5,19 @@ package ScalaFrameWorkForSpark.Project
  *
  */
 
-import ScalaFrameWorkForSpark.KafkaUtils
+import ScalaFrameWorkForSpark.KafkaUtils._
 
 object App {
   def main(args: Array[String]): Unit = {
 
-    KafkaUtils.KafkaProducer.KafkaConfigurationSetUp
+
+
+
+    //KafkaProducer.KafkaConfigurationSetUp
     while (true) {
-      KafkaUtils.KafkaProducer.KafkaProducerJob("test3", "/usr/local/src/file")
+      KafkaProducer.KafkaProducerJob("test4", "/usr/local/src/file")
       Thread.sleep(10000)
+
     }
   }
 }

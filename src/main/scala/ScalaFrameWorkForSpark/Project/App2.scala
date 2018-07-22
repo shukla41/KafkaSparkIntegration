@@ -5,7 +5,7 @@ package ScalaFrameWorkForSpark.Project
   */
 
 import com.databricks.spark.xml.XmlRelation
-import org.apache.kafka.clients.consumer.ConsumerConfig
+import org.apache.kafka.clients.consumer.{ConsumerConfig, ConsumerRecord}
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
@@ -17,14 +17,17 @@ import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 
 import scala.collection.mutable
 import com.databricks.spark.xml.util.XmlFile
-import scala.xml.XML
+
+import com.databricks.spark.xml._
+
 import com.databricks.spark.xml.XmlReader
+import com.databricks.spark.xml.parsers.StaxXmlParser
 /**
   * Created by shuvamoymondal on 7/20/18.
   */
 object App2 {
 
-  def process(msg :String) = {
+  def process(msg :RDD[String]) = {
 
     val spark = SparkSession
       .builder()
@@ -32,26 +35,35 @@ object App2 {
       .config("spark.some.config.option", "some-value")
       .getOrCreate()
 
-    //val g=msg.map(p=>p)
-
-        val xmlStringRDD = spark.sparkContext.parallelize(Seq(msg))
-        println(xmlStringRDD.getClass)
-
-        val df = new XmlReader().xmlRdd(spark.sqlContext, xmlStringRDD)
 
 
-    //val df=spark.sqlContext.read.format("com.databricks.spark.xml").option("rowTag", "Employee").
-    println(df.count())
-    df.show()
-    //val rowRdd = msg.map(p=> p)
-    println("I am haere")
-
-
-
-    //println(rowRdd)
 
 
   }
+
+
+  def processLogs(messages: RDD[ConsumerRecord[String, String]]) = {
+
+
+    val spark = SparkSession
+      .builder()
+      .appName("Spark SQL basic example")
+      .config("spark.some.config.option", "some-value")
+      .getOrCreate()
+
+
+    val p=messages.map(_.value)
+    //println(p.foreach(k=>println("The val",k)))
+    val df1 = new XmlReader().xmlRdd(spark.sqlContext, p)
+
+    val df = spark.sqlContext.read.format("com.databricks.spark.xml")
+      .option("rowTag", "Employee").load("/usr/local/src/file2/f.xml-[0-5]*")
+
+
+    df.show()
+
+  }
+
 
   def main(args: Array[String]): Unit = {
 
@@ -71,7 +83,7 @@ object App2 {
     val sparkStreamingContext = new StreamingContext(conf, Durations.seconds(30))
 
     //Configure Spark to listen messages in topic test
-    val topicList = List("test3")
+    val topicList = List("test4")
 
     // Read value of each message from Kafka and return it
     val messageStream = KafkaUtils.createDirectStream(sparkStreamingContext,
@@ -79,36 +91,15 @@ object App2 {
       ConsumerStrategies.Subscribe[String, String](topicList, kafkaParam))
 
     val lines = messageStream.map(consumerRecord => consumerRecord.value().asInstanceOf[String])
+    lines.saveAsTextFiles("/usr/local/src/file2/f.xml")
 
-    lines.foreachRDD(x=> x.foreach(process))
-    //val words = lines.map(line=> line.split(",")).map(word=> word)
-    //println(words.getClass)
+    messageStream.foreachRDD { rdd =>
+      val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+      val result = processLogs(rdd)
 
-    /*lines.foreachRDD(r => {
-      println("*** got an RDD, size = " + r.count())
-      r.foreach(s => println(s))
-      if (r.count() > 0) {
-        // let's see how many partitions the resulting RDD has -- notice that it has nothing
-        // to do with the number of partitions in the RDD used to publish the data (4), nor
-        // the number of partitions of the topic (which also happens to be four.)
-        println("*** " + r.getNumPartitions + " partitions")
-        r.glom().foreach(a => println("*** partition size = " + a.size))
-      }
-    })
 
-   // lines.print()
-    // Break every message into words and return list of words
-    val words = lines.flatMap(_.split(" "))
 
-    // Take every word and return Tuple with (word,1)
-    val wordMap = words.map(word => (word, 1))
-
-    // Count occurance of each word
-    val wordCount = wordMap.reduceByKey((first, second) => first + second)
-
-   // wordCount.print()
-   */
-
+    }
     sparkStreamingContext.start()
     sparkStreamingContext.awaitTermination()
   }

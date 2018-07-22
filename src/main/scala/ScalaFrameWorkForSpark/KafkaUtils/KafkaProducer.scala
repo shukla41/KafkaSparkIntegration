@@ -2,17 +2,21 @@ package ScalaFrameWorkForSpark.KafkaUtils
 
 import java.util.Properties
 
+
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 
 import scala.io.Source
-import scala.util.Random
+
+
+
 
 /**
   * Created by shuvamoymondal on 7/20/18.
   */
 object KafkaProducer {
 
-  var lines =""
+  var lines = ""
+
 
   def KafkaConfigurationSetUp = {
     val props = new Properties()
@@ -25,18 +29,19 @@ object KafkaProducer {
   }
 
 
-  def KafkaProducerJob (topic_name: String, Path: String) = {
+  def KafkaProducerJob(topic_name: String, Path: String) = {
     val topic = topic_name
-      val files = ReadFileFromDirectory.getListOfFiles(Path)
-      for (name <- files) {
-        lines = Source.fromFile(name.toString).getLines.mkString("\n")
-        ReadFileFromDirectory.delete(name)
-        val str = (1 to 1).map(x => lines).mkString
-        val message = new ProducerRecord[String, String](topic, null, str)
-        KafkaProducer.KafkaConfigurationSetUp.send(message)
+    val files = ReadFileFromDirectory.getListOfFiles(Path)
+    for (name <- files) {
+      lines = Source.fromFile(name.toString).getLines.mkString("\n")
+      ReadFileFromDirectory.delete(name)
+      val str = (1 to 1).map(x => lines).mkString
+      val message = new ProducerRecord[String, String](topic, null, str)
+      KafkaProducer.KafkaConfigurationSetUp.send(message)
 
 
     }
   }
+
 
 }
