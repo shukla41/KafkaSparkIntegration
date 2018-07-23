@@ -14,6 +14,7 @@ import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 import ScalaFrameWorkForSpark.SparkUtils._
 import org.apache.spark
 import ScalaFrameWorkForSpark.Common._
+import ScalaFrameWorkForSpark.KafkaUtils.KafkaProducer
 
 import scala.collection.mutable
 
@@ -66,6 +67,10 @@ object KafkaSparkStreamingIntegration {
         .option("rowTag", "Employee").load("/usr/local/src/file2/f.xml-[0-5]*")
 
       df.show()
+      //df.write.mode("append").json("/usr/local/src/json_file")
+      println("Json conversion")
+      println(df.toJSON.foreach(p=> KafkaProducer.KafkaJsonProducerJob("json_data",p)))
+      //KafkaProducer.KafkaProducerJob("json_data", "/usr/local/src/json_file")
       FileDirectoryHandling.cmd("rm -rf /usr/local/src/file2")
 
     }
