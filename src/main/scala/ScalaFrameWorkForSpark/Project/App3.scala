@@ -1,8 +1,7 @@
 package ScalaFrameWorkForSpark.Project
 
-import java.util.{Collections, Properties}
-import org.apache.kafka.clients.consumer.{ConsumerRecord, KafkaConsumer}
-import scala.collection.JavaConversions._
+import ScalaFrameWorkForSpark.KafkaUtils.KafkaConsumer._
+import ScalaFrameWorkForSpark.SparkUtils.SparkConfig.SparkSn
 
 /**
   * Created by shuvamoymondal on 7/23/18.
@@ -10,25 +9,14 @@ import scala.collection.JavaConversions._
 object App3 {
   def main(args: Array[String]): Unit = {
 
-    val consumerProperties = new Properties()
-    consumerProperties.put("bootstrap.servers", "localhost:9092")
-    consumerProperties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
-    consumerProperties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
-    consumerProperties.put("group.id", "dummy-group")
 
-    val consumer = new KafkaConsumer[String, String](consumerProperties)
-    consumer.subscribe(Collections.singletonList("json_data"))
+    val df = ScalaFrameWorkForSpark.SparkUtils.SparkConfig.SparkSn.sqlContext.read.format("com.databricks.spark.xml")
+      .option("rowTag", "Transaction").load("/usr/local/src/xml.xml")
 
-    while(true) {
-      val records = consumer.poll(100)
+    df.printSchema()
+    //df.show()
 
-       for(record:ConsumerRecord[String, String] <- records) {
-
-        println("key " + record.key())
-        println("value " + record.value())
-
-        Thread.sleep(10000)
-      }
+    val selectedData = df.select("RetailStoreID","WorkstationID","OperatorID._OperatorName","OperatorID._VALUE","RetailTransaction.ReceiptDateTime")
+    selectedData.show()
     }
   }
-}

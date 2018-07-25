@@ -14,9 +14,11 @@ import org.apache.spark.streaming.{Durations, Seconds, StreamingContext}
 import ScalaFrameWorkForSpark.SparkUtils._
 import org.apache.spark
 import ScalaFrameWorkForSpark.Common._
-import ScalaFrameWorkForSpark.KafkaUtils.KafkaProducer
+import ScalaFrameWorkForSpark.KafkaUtils.{KafkaConsumer, KafkaProducer}
+import ScalaFrameWorkForSpark.KafkaUtils.ReadFileFromDirectory._
 
 import scala.collection.mutable
+import ScalaFrameWorkForSpark.SchemaGenerate._
 
 
 
@@ -63,13 +65,22 @@ object KafkaSparkStreamingIntegration {
 
     def ParsingXmlToDataframe(spark: SparkSession) = {
 
-      val df = spark.sqlContext.read.format("com.databricks.spark.xml")
-        .option("rowTag", "Employee").load("/usr/local/src/file2/f.xml-[0-5]*")
+      val df1 = spark.sqlContext.read.format("com.databricks.spark.xml")
+        .option("rowTag", "Transaction")
+        .load("/usr/local/src/file2/f.xml-[0-5]*")
 
-      df.show()
+      df1.printSchema()
+     // println(manOf(df))
+     val p=XMLToDataFrameParse.AddressSchema(df1)
+      p.show()
+
+      //SchemaGenerate.XMLToDataFrameParse(df)
       //df.write.mode("append").json("/usr/local/src/json_file")
       println("Json conversion")
-      println(df.toJSON.foreach(p=> KafkaProducer.KafkaJsonProducerJob("json_data",p)))
+      println(p.toJSON.foreach(p=> KafkaProducer.KafkaJsonProducerJob("json_data",p)))
+
+      wait(100)
+      KafkaConsumer.KafkaconsumerJob("json_data")
       //KafkaProducer.KafkaProducerJob("json_data", "/usr/local/src/json_file")
       FileDirectoryHandling.cmd("rm -rf /usr/local/src/file2")
 

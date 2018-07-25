@@ -1,6 +1,7 @@
 package ScalaFrameWorkForSpark.Project
 
 
+
 import ScalaFrameWorkForSpark.KafkaUtils.KafkaProducer
 import ScalaFrameWorkForSpark.SparkUtils._
 import org.apache.spark.SparkConf
@@ -20,6 +21,7 @@ object App2 {
     val StrmingCntxt=SparkConfig.StreamingSession
     val spark=SparkConfig.SparkSn
     KafkaSparkStreamingIntegration.KafkaSparkMessageReaderToSave(StrmingCntxt,spark)
+
     //KafkaProducer.KafkaProducerJob("json_data", "/usr/local/src/json_file")
     StrmingCntxt.start()
     StrmingCntxt.awaitTermination()

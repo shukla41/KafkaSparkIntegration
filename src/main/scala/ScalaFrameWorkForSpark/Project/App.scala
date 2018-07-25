@@ -5,6 +5,7 @@ package ScalaFrameWorkForSpark.Project
  *
  */
 
+
 import ScalaFrameWorkForSpark.KafkaUtils._
 
 object App {
@@ -14,7 +15,10 @@ object App {
     //KafkaProducer.KafkaConfigurationSetUp
     while (true) {
       KafkaProducer.KafkaProducerJob("test4", "/usr/local/src/file")
-      Thread.sleep(10000)
+       Thread.sleep(10000)
+     // KafkaConsumer.KafkaconsumerJob("json_data")
+      //println(KafkaconsumerJob("json_data"))
+      //Thread.sleep(10000)
     // KafkaProducer.KafkaProducerJob("json_data", "/usr/local/src/json_file")
       //Thread.sleep(10000)
 
