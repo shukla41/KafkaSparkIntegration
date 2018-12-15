@@ -14,7 +14,21 @@
       <name>Scala-Tools Maven2 Repository</name>
       <url>http://scala-tools.org/repo-releases</url>
     </repository>
+
+      <repository>
+          <id>confluent</id>
+          <url>http://packages.confluent.io/maven/</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+              <enabled>true</enabled>
+          </snapshots>
+      </repository>
+
   </repositories>
+
+
 
   <pluginRepositories>
     <pluginRepository>
@@ -94,6 +108,24 @@
       </dependency>
 
 
+      <dependency>
+      <groupId>org.apache.avro</groupId>
+      <artifactId>avro</artifactId>
+      <version>1.8.2</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>io.confluent</groupId>
+          <artifactId>kafka-avro-serializer</artifactId>
+          <version>3.2.1</version>
+      </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
 
   </dependencies>
 
