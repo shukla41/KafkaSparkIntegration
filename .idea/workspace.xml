@@ -2,113 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccbaa35e-ace6-4e1d-98d6-592eb4ec484e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/User.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/DecisionTree.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LinReg.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LogisticRegression.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/ML.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/SimpleLinearRegression.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/StopWordsRemover.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/StringToIndex.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/Tokenizer.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_8_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_5_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_config_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_utils_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_8_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_8_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_8_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_4_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_4_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/HigherOrder.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ScalaFrameWorkForSpark.iml" afterPath="$PROJECT_DIR$/ScalaFrameWorkForSpark.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/AvroProducer.scala" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/AvroProducer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala" afterPath="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Common/FileDirectoryHandling$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Common/FileDirectoryHandling$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/AvroProducer.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/AvroProducer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$$anonfun$KafkaconsumerJob$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$$anonfun$KafkaconsumerJob$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$$anonfun$KafkaconsumerJob$2.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$$anonfun$KafkaconsumerJob$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaConsumer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$$anonfun$KafkaProducerJob$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$$anonfun$KafkaProducerJob$1$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$$anonfun$KafkaProducerJob$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$$anonfun$KafkaProducerJob$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$2.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$3.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$delete$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$getListOfFiles$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$$anonfun$getListOfFiles$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/User$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/User$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/User.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/KafkaUtils/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App$$anon$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App$$anon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App2$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App2$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App3$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/App3$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$$anonfun$main$1$$anon$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$$anonfun$main$1$$anon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$$anonfun$main$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/ProducerDemoKeys.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/SchemaAvro$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/SchemaAvro$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$$anonfun$main$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$$anonfun$main$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SchemaGenerate/XMLToDataFrameParse$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SchemaGenerate/XMLToDataFrameParse$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$KafkaSparkMessageReaderToSave$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$KafkaSparkMessageReaderToSave$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$ParsingXmlToDataframe$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$$anonfun$ParsingXmlToDataframe$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration$.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$typecreator8$1.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$$typecreator8$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg$.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/SparkConfig$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaFrameWorkForSpark/SparkUtils/SparkConfig$.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -127,93 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StopWordsRemover.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/StopWordsRemover.scala">
+      <file leaf-file-name="HigherOrder.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/HigherOrder.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#40#92#0" expanded="true" />
+                <element signature="e#41#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleLinearRegression.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/SimpleLinearRegression.scala">
+      <file leaf-file-name="XMLToDataFrameParse.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SchemaGenerate/XMLToDataFrameParse.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#40#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinReg.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LinReg.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#41#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultifeaturesLinearReg.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="e#41#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogisticRegression.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LogisticRegression.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="e#41#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DecisionTree.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/DecisionTree.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding>
-                <element signature="e#41#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkConfig.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App.scala">
+      <file leaf-file-name="KafkaSparkStreamingIntegration.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+            <state relative-caret-position="296">
+              <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -222,8 +62,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            <state relative-caret-position="410">
+              <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -290,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LogisticRegression.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/DecisionTree.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/HigherOrder.scala" />
       </list>
     </option>
   </component>
@@ -337,8 +178,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -363,13 +202,6 @@
               <item name="SparkStreamingKafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkStreamingKafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkStreamingKafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,35 +219,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="ScalaFrameWorkForSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkStreamingKafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkStreamingKafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="ScalaFrameWorkForSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkStreamingKafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkStreamingKafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="ScalaFrameWorkForSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="SparkUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="SchemaGenerate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -429,13 +248,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinReg">
+  <component name="RunManager" selected="Application.HigherOrder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="App3" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ScalaFrameWorkForSpark.Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ScalaFrameWorkForSpark.Project.App3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ScalaFrameWorkForSpark" />
+      <envs />
+    </configuration>
+    <configuration name="HigherOrder" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ScalaFrameWorkForSpark.Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ScalaFrameWorkForSpark.Project.HigherOrder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ScalaFrameWorkForSpark" />
+      <envs />
     </configuration>
     <configuration name="LinReg" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -483,44 +340,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ScalaFrameWorkForSpark.Project.StopWordsRemover" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ScalaFrameWorkForSpark" />
-      <envs />
-    </configuration>
-    <configuration name="Tokenizer" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ScalaFrameWorkForSpark.Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ScalaFrameWorkForSpark.Project.Tokenizer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ScalaFrameWorkForSpark" />
-      <envs />
-    </configuration>
-    <configuration name="WordtoVec" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ScalaFrameWorkForSpark.Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ScalaFrameWorkForSpark.Project.StringToIndex" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -801,19 +620,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WordtoVec" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Tokenizer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StopWordsRemover" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SimpleLinearRegression" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinReg" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StopWordsRemover" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleLinearRegression" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinReg" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HigherOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinReg" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SimpleLinearRegression" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StopWordsRemover" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WordtoVec" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Tokenizer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HigherOrder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinReg" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleLinearRegression" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StopWordsRemover" />
       </list>
     </recent_temporary>
   </component>
@@ -840,21 +659,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28806585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36914378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3990307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -867,7 +687,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -920,14 +740,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/SchemaAvro.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -961,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,44 +888,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/App1.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SchemaGenerate.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Common/FileDirectoryHandling.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SchemaGenerate/XMLToDataFrameParse.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1141,13 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/User.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1159,20 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1204,23 +963,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MethodOverride.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/StopWordsRemover.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/SimpleLinearRegression.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,66 +982,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#93#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MultifeaturesLinearReg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/LogisticRegression.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="439">
           <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/MethodOverride.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/StopWordsRemover.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="e#40#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/DecisionTree.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="439">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/SparkConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/ReadFileFromDirectory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/KafkaUtils/KafkaProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/Project/HigherOrder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#41#76#0" expanded="true" />
+            <element signature="e#41#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SchemaGenerate/XMLToDataFrameParse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaFrameWorkForSpark/SparkUtils/KafkaSparkStreamingIntegration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ScalaFrameWorkForSpark</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
